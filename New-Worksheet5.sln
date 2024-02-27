@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part1", "Part1\Part1.csproj", "{38291F17-9D3C-428F-85F3-A1F57305E554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part1", "Part1\Part1.csproj", "{38291F17-9D3C-428F-85F3-A1F57305E554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part 2 Methods", "Part 2 Methods\Part 2 Methods.csproj", "{68794D84-5BC3-45AE-B267-F95B384220B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part 3 Exception Handling", "Part 3 Exception Handling\Part 3 Exception Handling.csproj", "{D842D502-C8FF-41AC-99FD-1BE64A88FE91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{38291F17-9D3C-428F-85F3-A1F57305E554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38291F17-9D3C-428F-85F3-A1F57305E554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38291F17-9D3C-428F-85F3-A1F57305E554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68794D84-5BC3-45AE-B267-F95B384220B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68794D84-5BC3-45AE-B267-F95B384220B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68794D84-5BC3-45AE-B267-F95B384220B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68794D84-5BC3-45AE-B267-F95B384220B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D842D502-C8FF-41AC-99FD-1BE64A88FE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D842D502-C8FF-41AC-99FD-1BE64A88FE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D842D502-C8FF-41AC-99FD-1BE64A88FE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D842D502-C8FF-41AC-99FD-1BE64A88FE91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
