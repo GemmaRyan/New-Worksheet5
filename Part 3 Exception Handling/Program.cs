@@ -1,4 +1,5 @@
-﻿namespace Part_3_Exception_Handling
+﻿
+namespace Part_3_Exception_Handling
 {
     internal class Program
     {

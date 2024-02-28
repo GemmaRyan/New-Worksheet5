@@ -13,23 +13,18 @@ namespace Part_2_Methods
             Console.WriteLine( CountCharInString("dkfjda;lfjladsfkjl", 'a'));
             Console.WriteLine(CountCharInString("dkfjda;lfjladsfkjl", 'l'));
 
-           // Occurances(test);
         }
-
-
-
         static int[] CountAllCharsInString (string input)
             {
             int[] counts = new int[26];
 
-            for (int i = 0; i < abc.Count;  i++) {
+            for (int i = 0; i < abc.Count; i++)
+            {
 
                 counts[i] = CountCharInString(input, abc[i]);
             }
-
             return counts;
         }
-
         static int CountCharInString (string input, char c)
         {
             int count = 0;
@@ -40,21 +35,8 @@ namespace Part_2_Methods
                     count++;
                 }
             }
-
             return count;
         }
-        //static void Occurances(string test)
-        //{
-        //    for (int i = 0; i < test.Length; i++)
-        //    {
-        //        for (int j = 0;j < abc.Count; j++) 
-        //        { 
-        //            if (test[i] == abc[j])
-        //            {
-        //                fi
-        //            }
-        //        }
-        //    }
-        }
     }
+}
 
